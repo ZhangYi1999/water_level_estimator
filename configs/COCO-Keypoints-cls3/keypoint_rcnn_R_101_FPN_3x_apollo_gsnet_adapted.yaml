@@ -1,0 +1,5 @@
+_BASE_: "Base-Keypoint-RCNN-FPN-apollo.yaml"
+MODEL:
+  WEIGHTS: "../models/model.pth"
+  RESNETS:
+    DEPTH: 101

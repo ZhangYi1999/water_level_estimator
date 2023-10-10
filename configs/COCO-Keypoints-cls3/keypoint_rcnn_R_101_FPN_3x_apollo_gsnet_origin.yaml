@@ -1,0 +1,5 @@
+_BASE_: "Base-Keypoint-RCNN-FPN-apollo.yaml"
+MODEL:
+  WEIGHTS: "/workspace/fold/wlevel_estimator_car/_models/gsnet/model_final_origin.pth"
+  RESNETS:
+    DEPTH: 101

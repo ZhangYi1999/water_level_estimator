@@ -1,0 +1,11 @@
+_BASE_: "Base-Keypoint-RCNN-FPN.yaml"
+MODEL:
+  WEIGHTS: "detectron2://ImageNetPretrained/MSRA/R-50.pkl"
+  RESNETS:
+    DEPTH: 50
+SOLVER:
+  AMP:
+    ENABLED: True
+  CHECKPOINT_PERIOD: 1000
+  STEPS: (40000, 120000)
+  MAX_ITER: 150000

@@ -1,0 +1,9 @@
+Phase:train
+Average number of keypoints labelled: 16.2 / 66
+JSON files directory:  ./annotations
+Saved 52942 instances over 4083 images
+
+Phase:val
+Average number of keypoints labelled: 16.0 / 66
+JSON files directory:  ./annotations
+Saved 2674 instances over 200 images

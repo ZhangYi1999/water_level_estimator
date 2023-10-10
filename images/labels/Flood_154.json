@@ -1,0 +1,1 @@
+{"image_name": "Flood_154.jpg", "width": 1024, "height": 576, "objects": [{"cls": "1", "water_level": "64", "bbox": [230, 240, 603, 396]}, {"cls": "0", "water_level": "71", "bbox": [539, 202, 763, 301]}, {"cls": "1", "water_level": "67", "bbox": [811, 160, 943, 216]}]}
